@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/name_edit"
+        android:layout_width="match_parent"
+        android:scaleX="0.8"
+        android:layout_height="wrap_content"
+        android:hint="Pleas Write your Name"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/email_edit"
+        android:layout_width="match_parent"
+        android:scaleX="0.8"
+        android:layout_height="wrap_content"
+        android:hint="Pleas Write your Email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/email_password"
+        android:layout_width="match_parent"
+        android:scaleX="0.8"
+        android:layout_height="wrap_content"
+        android:hint="Pleas Write your Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/login"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/registered"
+        android:text="Registered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
